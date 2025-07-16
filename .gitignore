@@ -1,0 +1,42 @@
+# Archivos y carpetas comunes
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.ipynb_checkpoints
+.env
+.venv/
+*.sqlite3
+
+# Archivos y carpetas comunes de R
+.Rhistory
+.RData
+.Rproj.user/
+.Ruserdata
+
+# Archivos temporales
+*.log
+*.tmp
+*.swp
+*.DS_Store
+Thumbs.db
+
+# Archivos de entorno y notebooks
+*.env
+*.vscode/
+*.idea/
+
+# Archivos de base de datos y dumps
+*.sql
+*.dump
+*.db
+
+# Compilados LaTeX en R
+*.aux
+*.out
+*.toc
+*.pdf
+
+# HTML o PDF
+*.html
+*.pdf
