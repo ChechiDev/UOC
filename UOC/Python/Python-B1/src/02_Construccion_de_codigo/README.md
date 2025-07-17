@@ -135,3 +135,30 @@ obtain_max([1, 45, 87, 21, 0, 23, 28])
 [Ver ejercicio 5](05_obtain_max.py)
 
 ---
+
+# Ejercicio 6: Calculate_angle
+
+Utilizando la librería `math`, implementa una función llamada
+`calculate_angle(angle)` que reciba como parámetro un número
+correspondiente a un ángulo en grados llamado `angle` y retorne
+como resultado el seno de dicho ángulo redondeado a 2 decimales.
+
+
+## Parámetros
+
+- `angle`: Entero correspondiente al valor de un ángulo.
+
+## Ejemplo
+
+### Entrada:
+```python
+calculate_angle(270)
+```
+### Output:
+```python
+-1
+```
+
+[Ver ejercicio 6](06_calculate_angle.py)
+
+---
