@@ -1,4 +1,4 @@
-# sum_odd_numbers.py
+# 02_sum_odd_numbers.py
 
 def sum_odd_numbers(list_numbers: list) -> int:
     """ Función para sumar únicamente los números impares de una lista """

@@ -1,4 +1,4 @@
-# check_age.py
+# 01_check_age.py
 
 def check_age(age: int) -> int:
     """ Retorna True si la edad del parámetro es mayor o igual a 18 """

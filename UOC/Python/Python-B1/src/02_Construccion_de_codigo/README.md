@@ -74,7 +74,6 @@ el texto invertido.
 ```python
 invert_text('Hello world!')
 ```
-
 ### Output:
 ```python
 !dlrow olleH
@@ -101,8 +100,38 @@ cadena de texto.
 ```python
 count_vowels('Hello world, this is an example.')
 ```
-
 ### Output:
 ```python
 9
 ```
+
+[Ver ejercicio 4](count_vowels.py)
+
+---
+
+# Ejercicio 5: Obtain_max
+
+Implementar la función `obtain_max(list_numbers)` que recibe
+como parámetro una lista no vacía de números enteros y devuelve
+el número mayor de la lista.
+
+Recuerda que en Python existe la función llamada `max`
+
+## Parámetros
+
+- `list_numbers`: Lista de números enteros
+
+## Ejemplo
+
+### Entrada:
+```python
+obtain_max([1, 45, 87, 21, 0, 23, 28])
+```
+### Output:
+```python
+87
+```
+
+[Ver ejercicio 4](obtain_max.py)
+
+---

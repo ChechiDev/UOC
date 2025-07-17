@@ -1,4 +1,4 @@
-# fibonacci.py
+# 01_fibonacci.py
 
 def fibonacci(fibonacci_number: int) -> int:
 
