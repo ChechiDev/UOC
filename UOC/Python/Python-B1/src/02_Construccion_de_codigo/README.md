@@ -163,7 +163,7 @@ calculate_angle(270)
 
 ---
 
-# Ejercicio 7
+# Ejercicio 7: Line_graph
 
 Enunciado:
 Mediante la librería `matplotlib`, implementa una función llamada
@@ -186,3 +186,45 @@ y = [2, 4, 6, 8, 10]
 ```python
 Matplotlib: Line Graph
 ```
+
+[Ver ejercicio 7](07_line_graph.py)
+
+---
+
+# Ejercicio 8: Numpy_results
+
+Implementar la función `numpy_results(list_numbers)` que reciba como parámetro una
+lista que contiene números enteros y decimales llamada `list_numbers`, se pide
+calcular el promedio y la desviación estándar mediante la
+librería `Numpy` de todos los números dentro de la lista.
+
+Cada resultado se debe imprimir en pantalla con su respectivo nombre
+`Average: {value}` y `Standard deviation: {value}`, dichos resultados deben
+estar redondeados a 2 decimales.
+
+Los resultados también han de ser devueltos por la función.
+
+Puedes consultar la referencia de la librería `Numpy` en el siguiente enlace:
+https://numpy.org/doc/stable/reference/index.html#reference
+
+
+
+## Parámetro
+
+- `list_numbers`: Lista de números enteros y decimales.
+
+## Ejemplo
+
+### Entrada:
+```python
+[1, 2, 10, -5, 0, 9.55, 74.825, 55, 8, 42]
+```
+### Output:
+```python
+Average: 19.74
+Standard deviation: 26.03
+```
+
+[Ver ejercicio 8](08_numpy_results.py)
+
+---
