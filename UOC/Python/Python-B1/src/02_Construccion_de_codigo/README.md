@@ -57,3 +57,27 @@ sum_odd_numbers([1, 2, 3, 4, 5, 10, 21, 100])
 [Ver ejercicio 2](sum_odd_numbers.py)
 
 ---
+
+# Ejercicio 3: Invert_text
+
+Implementa una función llamada `invert_text(text_chain)` que reciba como
+parámetro una cadena de texto de tipo string llamada `text_chain` y devuelva
+el texto invertido.
+
+## Parámetros
+
+- `text_chain`: Este parámetro solo admite strings.
+
+## Ejemplo
+
+### Entrada:
+```python
+invert_text('Hello world!')
+```
+
+### Salida:
+```python
+!dlrow olleH
+```
+
+[Ver ejercicio 3](invert_text.py)
