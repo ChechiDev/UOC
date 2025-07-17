@@ -162,3 +162,27 @@ calculate_angle(270)
 [Ver ejercicio 6](06_calculate_angle.py)
 
 ---
+
+# Ejercicio 7
+
+Enunciado:
+Mediante la librería `matplotlib`, implementa una función llamada
+`line_graph(x, y)`, se debe realizar únicamente la configuración
+para la gráfica (sin mostrar nada en pantalla).
+De esta forma, deberás configurar el título, que será `'Graph'`;
+los labels de los ejes, que serán `'Axis X'` y `'Axis Y'` y activar
+el grid.
+
+
+## Parámetros
+
+Los valores de los parámetros que recibe esta función son:
+
+```python
+x = [1, 2, 3, 4, 5]
+y = [2, 4, 6, 8, 10]
+```
+### Output:
+```python
+Matplotlib: Line Graph
+```
