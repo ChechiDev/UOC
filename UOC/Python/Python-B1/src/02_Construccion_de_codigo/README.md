@@ -23,7 +23,7 @@ fibonacci(10)
 55
 ```
 
-[Ver ejercicio 1](fibonacci.py)
+[Ver ejercicio 1](01_fibonacci.py)
 
 ---
 
@@ -54,7 +54,7 @@ sum_odd_numbers([1, 2, 3, 4, 5, 10, 21, 100])
 30
 ```
 
-[Ver ejercicio 2](sum_odd_numbers.py)
+[Ver ejercicio 2](02_sum_odd_numbers.py)
 
 ---
 
@@ -79,7 +79,7 @@ invert_text('Hello world!')
 !dlrow olleH
 ```
 
-[Ver ejercicio 3](invert_text.py)
+[Ver ejercicio 3](03_invert_text.py)
 
 ---
 
@@ -105,7 +105,7 @@ count_vowels('Hello world, this is an example.')
 9
 ```
 
-[Ver ejercicio 4](count_vowels.py)
+[Ver ejercicio 4](04_count_vowels.py)
 
 ---
 
@@ -132,6 +132,6 @@ obtain_max([1, 45, 87, 21, 0, 23, 28])
 87
 ```
 
-[Ver ejercicio 4](obtain_max.py)
+[Ver ejercicio 5](05_obtain_max.py)
 
 ---

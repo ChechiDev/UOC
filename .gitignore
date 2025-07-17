@@ -6,6 +6,7 @@ __pycache__/
 *.ipynb_checkpoints
 .env
 .venv/
+document/
 *.sqlite3
 
 # Archivos y carpetas comunes de R
