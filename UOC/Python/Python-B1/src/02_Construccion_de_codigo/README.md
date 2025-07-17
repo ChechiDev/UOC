@@ -18,7 +18,7 @@ posición en la serie Fibonacci.
 ```python
 fibonacci(10)
 ```
-### Salida:
+### Output:
 ```python
 55
 ```
@@ -49,7 +49,7 @@ El error lo puedes mostrar con la siguiente instrucción:
 ```python
 sum_odd_numbers([1, 2, 3, 4, 5, 10, 21, 100])
 ```
-### Salida
+### Output:
 ```python
 30
 ```
@@ -75,9 +75,34 @@ el texto invertido.
 invert_text('Hello world!')
 ```
 
-### Salida:
+### Output:
 ```python
 !dlrow olleH
 ```
 
 [Ver ejercicio 3](invert_text.py)
+
+---
+
+# Ejercicio 4: Count_vowels
+
+Crea una función llamada `count_vowels(text_chain)` que reciba como parámetro
+una cadena de texto de tipo string llamada `text_chain` y retorne el número
+de vocales, ya sean mayúsculas o minúsculas, sin tilde que se encuentren en dicha
+cadena de texto.
+
+## Parámetros
+
+- `text_chain`: Este parámetro admite únicamente strings.
+
+## Ejemplo
+
+### Entrada:
+```python
+count_vowels('Hello world, this is an example.')
+```
+
+### Output:
+```python
+9
+```
