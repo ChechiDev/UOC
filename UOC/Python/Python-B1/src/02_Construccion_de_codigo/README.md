@@ -314,3 +314,31 @@ find_max(numbers_list)
 [Ver ejercicio 11](11_find_max.py)
 
 ---
+
+# Ejercicio 12
+
+Enunciado:
+Escribe una función llamada `is_palindrome(word)` que reciba como parámetro
+una cadena `word` y verifique si es un palíndromo utilizando recursión.
+La función debe devolver `True` si la cadena es un palíndromo y `False` en
+caso contrario.
+
+## Parámetros
+
+- `word` (`str`): una cadena de caracteres.
+
+## Ejemplo
+
+### Entrada:
+```python
+word = "racecar"
+print(is_palindrome(word))
+```
+### Output:
+```python
+True
+```
+
+[Ver ejercicio 12](12_is_palindrome.py)
+
+---

@@ -1,6 +1,6 @@
 # find_max.py
 
-def find_max(lst):
+def find_max(lst: list) -> int:
     """ Devuelve el valor máximo de una lista usando recursividad """
     # Si la lista solo contiene 1 valor, lo devolvemos:
     if len(lst) == 1:
