@@ -286,3 +286,31 @@ print(invert_list(lst))
 ```
 
 [Ver ejercicio 10](10_invert_list.py)
+
+---
+
+# Ejercicio 11
+
+Implementa una función llamada `find_max(lst)` que encuentre el valor máximo en una
+lista de números utilizando recursión. La función debe devolver el valor
+máximo de la lista.
+
+## Parámetros
+
+- `lst` (`List`): lista de números enteros o flotantes
+
+## Ejemplo
+
+### Entrada:
+```python
+numbers_list = [1, 5, 2, 7, 3]
+find_max(numbers_list)
+```
+### Output:
+```python
+7
+```
+
+[Ver ejercicio 11](11_find_max.py)
+
+---
