@@ -261,3 +261,28 @@ times = 3
 [Ver ejercicio 9](09_mult_recursive.py)
 
 ---
+
+# Ejercicio 10
+
+Enunciado:
+Escribe una función llamada `invert_list(lst)` que reciba como parámetro
+una lista `lst` y la invierta utilizando recursión. La función debe
+devolver la lista invertida.
+
+## Parámetros
+
+- `lst` (`list`): una lista de elementos.
+
+## Ejemplo
+
+### Entrada:
+```python
+lst = [1, 2, 3, 4, 5]
+print(invert_list(lst))
+```
+### Output:
+```python
+[5, 4, 3, 2, 1]
+```
+
+[Ver ejercicio 10](10_invert_list.py)
