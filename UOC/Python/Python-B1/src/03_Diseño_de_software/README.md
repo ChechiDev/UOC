@@ -166,3 +166,35 @@ sum_list_numbers([50, 10.5, 21, 37.2, 99.9, 40.75, 80])
 [Ver ejercicio 4](04_sum_list_numbers.py)
 
 ---
+
+# Ejercicio 5: Check_leap_year
+
+Utilizando las buenas prácticas de programación de Python PEP8, implementa una
+función `check_leap_year`, el parámetro debe ser nombrado correctamente y
+recibe como dato un año y mediante la función se debe retornar si este año es
+bisiesto o no.
+
+Para comprobar el año bisiesto fácilmente se puede utilizar la
+operación mod `%`, el resultado de la operación del año a consultar `mod 4`
+debe ser igual a `0` y además el año a consultar `mod 100` debe ser distinto de
+`0`.
+
+En el caso de obtener un resultado de `0` al realizar la operación del año
+`mod 100` se debe comprobar adicionalmente que
+el resultado del año a comprobar `mod 400` sea `0` para
+considerar que sea un año bisiesto.
+
+## Parámetros
+
+- Año (`int`): El parámetro debe ser nombrado correctamente y recibe como dato un valor de tipo entero.
+
+## Ejemplo
+
+### Entrada:
+```python
+check_leap_year(2000)
+```
+### Output:
+```python
+True
+```
