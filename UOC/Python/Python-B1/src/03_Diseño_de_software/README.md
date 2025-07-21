@@ -131,3 +131,38 @@ Student list by value ['Alice', 'Bob', 'Juan', 'Maria']
 Student list by reference ['Alice', 'Bob', 'Juan', 'Sofia']
 Original student list ['Alice', 'Bob', 'Juan', 'Sofia']
 ```
+
+[Ver ejercicio 3](03_add_student.py)
+
+---
+
+# Ejercicio 4: Sum_list_numbers
+
+Utilizando las buenas prácticas de programación de Python PEP8, implementa una
+función `sum_list_numbers`, el parámetro debe ser nombrado correctamente, el
+mismo debe recibir una lista.
+
+Las buenas prácticas de programación de Python PEP8 las puedes encontrar en
+el siguiente enlace:
+https://peps.python.org/pep-0008/
+
+La función debe retornar la suma de los números encontrados en la lista.
+
+## Parámetro
+
+El parámetro debe recibir la siguiente lista de números y debe ser nombrado
+bajo las buenas prácticas de programación. Recibe la siguiente lista:
+
+### Entrada:
+```python
+sum_list_numbers([50, 10.5, 21, 37.2, 99.9, 40.75, 80])
+```
+### Output
+```python
+339.35
+10
+```
+
+[Ver ejercicio 4](04_sum_list_numbers.py)
+
+---
