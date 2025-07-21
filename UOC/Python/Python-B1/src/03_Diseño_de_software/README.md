@@ -265,3 +265,40 @@ An unexpected error has occurred: int() argument must be a string, a bytes-like 
 ```
 
 [Ver ejercicio 7](07_convert_to_integer.py)
+
+---
+
+# Ejercicio 8: Get_element_from_list
+
+Imagina que trabajas en una aplicación de gestión de inventarios. Para obtener
+información sobre un producto, es necesario buscarlo en una lista. Sin embargo,
+podría generarse un error si se ingresa un índice fuera del rango de la lista.
+Así que debes manejar las excepciones.
+
+Implementa `get_element_from_list(items_list, index)` que reciba una lista
+y un índice, y retorne el elemento de la lista correspondiente al índice. Si
+el índice está fuera del rango de la lista, la función debe retornar
+`"The specified index is out of the list's range"`. En caso de un error inesperado, ha
+de retornar `"An unexpected error has occurred: {error}"`.
+
+## Parámetros
+
+- `items_list` (`List`): Lista de la que se desea obtener el elemento.
+- `index` (`int`): Índice del elemento que se desea obtener.
+
+## Ejemplo
+
+### Entrada:
+```python
+get_element_from_list(["Pencil", "Pen", "Eraser", "Notebook", "Ruler"], 3)
+get_element_from_list(["Pencil", "Pen", "Eraser", "Notebook", "Ruler"], 5)
+```
+### Output:
+```python
+Notebook
+Error: The specified index is out of the items_list range
+```
+
+[Ver ejercicio 8](08_get_element_from_list.py)
+
+---
