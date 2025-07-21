@@ -302,3 +302,43 @@ Error: The specified index is out of the items_list range
 [Ver ejercicio 8](08_get_element_from_list.py)
 
 ---
+
+# Ejercicio 9: Calculate_factorial
+
+Imagina que estás trabajando en una aplicación para calcular factoriales. Crea
+una función `calculate_factorial(number)` que orquestará el proceso del cálculo
+del factorial usando la función `factorial(number)` que recibirá un número entero
+no negativo y calculará su factorial. Por lo tanto, debes manejar las excepciones
+para controlar que las funciones se utilizan correctamente.
+
+De esta manera, `calculate_factorial(number)` recibe un número entero y calcula su
+factorial llamando a `factorial(number)`. Si ocurre una excepción al invocar a
+`factorial(number)`, debe mostrar el mensaje de error:
+`"An unexpected error has occurred: {error}"`.
+
+## Parámetros
+
+- `number` (`int`): El número del cual se desea calcular el factorial.
+
+La función `factorial(number)` calcula el factorial del número. Si el número
+introducido es negativo debe lanzar una excepción con el mensaje:
+`"Factorial of a negative number cannot be calculated"`.
+
+## Parámetros
+
+- `number` (`int`): El número del cual se desea calcular el factorial.
+
+## Ejemplo
+
+### Entrada:
+```python
+calculate_factorial(5)
+calculate_factorial(-5)
+```
+### Output:
+```python
+120
+An unexpected error has occurred: Factorial of a negative number cannot be calculated...
+```
+
+[Ver ejercicio 9](09_calculate_factorial.py)
