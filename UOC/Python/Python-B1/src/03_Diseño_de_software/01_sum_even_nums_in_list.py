@@ -4,6 +4,8 @@ import os
 
 # Suma con While:
 def sum_even_numbers_in_list_while(list_numbers: list) -> int:
+    """ Devuelve la suma de los números pares de una lista usando while """
+
     i = 0
     suma = 0
 
@@ -15,9 +17,10 @@ def sum_even_numbers_in_list_while(list_numbers: list) -> int:
 
     return suma
 
-
 # Suma con For:
 def sum_even_numbers_in_list_for(list_numbers: list) -> int:
+    """ Devuelve la suma de los números pares de una lista usando for """
+
     suma = 0
 
     for num in list_numbers:
@@ -29,6 +32,8 @@ def sum_even_numbers_in_list_for(list_numbers: list) -> int:
 
 # Suma con DO While:
 def sum_even_numbers_in_list_do_while(list_numbers: list) -> int:
+    """ Devuelve la suma de los números pares de una lista usando do while """
+
     i = 0
     suma = 0
 
