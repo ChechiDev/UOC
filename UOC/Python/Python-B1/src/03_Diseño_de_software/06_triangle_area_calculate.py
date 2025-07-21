@@ -1,6 +1,5 @@
 # triangle_area_calculate.py
 
-import os
 
 def triangle_area_calculate(base, height):
     """ Calcula y devuelve el área de un triángulo usando base y altura """

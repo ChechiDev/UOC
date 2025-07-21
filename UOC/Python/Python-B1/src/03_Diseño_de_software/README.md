@@ -233,3 +233,35 @@ triangle_area_calculate(33, 45)
 [Ver ejercicio 6](06_triangle_area_calculate.py)
 
 ---
+
+# Ejercicio 7: Convert_to_integer
+
+Implementa la función `convert_to_integer(string)` que reciba como parámetro
+una cadena y retorne un número entero si es posible.
+En caso contrario, debe retornar un mensaje indicando
+que la cadena no puede ser convertida a un número entero o
+un mensaje de error inesperado.
+Para el error `ValueError` debe retornar `"The string cannot be converted to an integer"`;
+si es cualquier otra excepción, debe
+mostrar `"An unexpected error has occurred:"` seguido del error.
+
+## Parámetros
+
+- `string` (`str`): cadena que se desea convertir a un número entero.
+
+## Ejemplo
+
+### Entrada:
+```python
+convert_to_integer("123")
+convert_to_integer("foo")
+convert_to_integer(["3.14"])
+```
+### Output:
+```python
+123
+The string cannot be converted to an integer
+An unexpected error has occurred: int() argument must be a string, a bytes-like object or a number, not 'list'
+```
+
+[Ver ejercicio 7](07_convert_to_integer.py)
